@@ -1,0 +1,12 @@
+{
+  "name": "lazy-testbed",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "serve:lazy": "rm -rf .parcel-cache dist; yarn parcel --lazy src/index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.9.2"
+  }
+}
