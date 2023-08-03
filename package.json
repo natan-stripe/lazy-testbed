@@ -4,9 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "serve:lazy": "rm -rf .parcel-cache dist; yarn parcel --lazy src/index.html"
+    "serve:lazy": "rm -rf .parcel-cache dist; yarn parcel --lazy ./src/main.ts --no-cache"
   },
   "devDependencies": {
-    "parcel": "^2.9.2"
+    "parcel": "2.0.0-nightly.1348"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
